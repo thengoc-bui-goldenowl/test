@@ -4,58 +4,72 @@
 <head>
     <title>Page Title</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="head">
-        <h1>My first Bootstrap 5 Page</h1>
-        <p>Resize this responsive page to see the effect!</p>
-    </div>
-    <div class="topnav">
-        <a class="active" href="#active">Active</a>
-        <a class="link" href="#link1">Link</a>
-        <a class="link2" href="#link2">Link</a>
-        <a class="disable" href="#disable">Disable</a>
-    </div>
-    <div class="body">
-        <div id="left">
-            <div class="about">
-                <h2>About me</h2>
-                <h4>Photo of me:</h4>
-                <img src="naruto.jpg" alt="Naruto">
-                <p id="underimg">Some text about me in culpa qui officia deserunt mollit anim..</p>
-            </div>
-            <div class="link">
-
-                <h2>Some Links</h2>
-                <p style="margin-top: -10px;">Lorem ipsum dolor sit ame.</p>
-                <div class="list">
-                    <a class="active" href="#active">Active</a>
-                </div>
-                <a class="link" href="#link1">Link</a>
-                <br>
-                <a class="link" href="#link2">Link</a>
-                <br>
-                <a class="disable" href="#disable">Disable</a>
-
-            </div>
-
+    <div class="main">
+        <div class="header">
+            <h1>My first Bootstrap 5 Page</h1>
+            <p>Resize this responsive page to see the effect!</p>
         </div>
-        <div id="right">
+        <div class="topnav">
+            <a class="active" href="#active">Active</a>
+            <a class="link" href="#link1">Link</a>
+            <a class="link2" href="#link2">Link</a>
+            <a class="disable" href="#disable">Disable</a>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="about post">
+                    <h2>About me</h2>
+                    <h4>Photo of me:</h4>
+                    <img src="naruto.jpg" alt="Naruto">
+                    <p class="underimg">Some text about me in culpa qui officia deserunt mollit anim..</p>
+                </div>
+                <div class="nav-link">
+                    <h2>Some Links</h2>
+                    <p>Lorem ipsum dolor sit ame.</p>
+                    <div class="nav-link-sub">
+                        <div>
+                            <a class="active" href="#active">Active</a>
+                        </div>
+                        <div>
+                            <a class="link" href="#link1">Link</a>
+                        </div>
+                        <div>
+                            <a class="link" href="#link2">Link</a>
+                        </div>
+                        <div>
+                            <a class="disable" href="#disable">Disable</a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="post1">
-                <h2>TITLE HEADING</h2>
-                <h4>Title description, Dec 7, 2020</h4>
-                <img src="naruto.jpg" alt="Naruto">
-                <p id="underimg">Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do ejusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exxercitation ullamco.</p>
             </div>
-            <div class="post2">
-                <h2>TITLE HEADING</h2>
-                <h4>Title description, Sep 2, 2020</h4>
-                <img src="naruto.jpg" alt="Naruto">
-                <p id="underimg">Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do ejusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exxercitation ullamco.</p>
+            <div class="right">
+
+                <div class="post">
+                    <h2>TITLE HEADING</h2>
+                    <h4>Title description, Dec 7, 2020</h4>
+                    <img onerror="this.src=''" src="naruto.jpg" alt="Naruto">
+                    <p class="underimg">Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do ejusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exxercitation ullamco.</p>
+                </div>
+                <div class="post">
+                    <h2>TITLE HEADING</h2>
+                    <h4>Title description, Sep 2, 2020</h4>
+                    <img src="naruto.jpg" alt="Naruto">
+                    <p class="underimg">Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do ejusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exxercitation ullamco.</p>
+                </div>
+                <div class="post">
+                    <h2>TITLE HEADING</h2>
+                    <h4>Title description, Sep 2, 2020</h4>
+                    <img src="naruto.jpg" alt="Naruto">
+                    <p class="underimg">Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do ejusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exxercitation ullamco.</p>
+                </div>
             </div>
         </div>
     </div>
