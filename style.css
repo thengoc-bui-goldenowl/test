@@ -127,6 +127,7 @@ div.post h4 {
 
 .about p:last-child {
     margin-bottom: 4vh;
+    margin-top: 0vh;
 }
 
 .nav-link h2 {
